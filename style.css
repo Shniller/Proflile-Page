@@ -1,0 +1,106 @@
+/* Both Containers Are Flex Boxes */
+.container {
+  display: flex;
+}
+/* Main Container has a height of 700px */
+.main {
+  height: 700px;
+}
+.col-1 {
+  flex: 1;
+}
+.col-2 {
+  flex: 2;
+}
+
+.Profile {
+  padding: 2%;
+}
+.connections {
+  padding: 2%;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+.columns {
+  width: 70%;
+}
+
+.nav {
+  align-items: center;
+  background: blueviolet;
+  padding-left: 5%;
+  padding-right: 5%;
+  font-family: sans-serif;
+}
+
+li {
+  list-style: none;
+}
+.bold-text {
+  color: white;
+}
+.justify-around {
+  justify-content: space-around;
+}
+.align-center {
+  align-items: center;
+}
+ 
+}
+.justify-left {
+  justify-content: left;
+}
+
+}
+.justify-right {
+  justify-content: right;
+}
+.justify-between {
+    justify-content: space-between;
+}
+
+.logo {
+ width: 40%
+}
+.logo a {
+    color: white;
+    text-decoration: none;
+}
+.bold-text {
+    font-weight: bold;
+}
+.btn {
+    border: 0px;
+    color: white;
+    background: turquoise;
+    padding: 10px 20px 10px 20px;
+}
+
+.Shniller1 {
+    width: 200px;
+}
+
+.info img {
+  border-radius: 50%;
+}
+
+.header {
+  background-color: teal;
+  height: 100px;
+  margin-bottom: -75px;
+}
+
+.info {
+  border: 5px solid grey;
+  margin-bottom: 2% ;
+}
+.info-holder {
+  padding: 2%;
+}
+.map-marker {
+  display: inline-block;
+  width: 10px;
+}
